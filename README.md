@@ -1,4 +1,4 @@
-# 📚 Natural Language Processing (NLP) Concepts & Implementations
+# 📚 Natural Language Processing (NLP) (23CSE471)
 
 Welcome to this repository, a comprehensive resource for exploring fundamental concepts and practical implementations in **Natural Language Processing (NLP)**. This repository serves as a learning hub for my professional elective at university, aiming to demystify key NLP techniques through both theoretical explanations and hands-on Python code.
 
