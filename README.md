@@ -42,8 +42,9 @@ Here's a glimpse of what you'll find in this repository. More concepts and imple
 ## 🚀 Getting Started
 
 To explore the code and concepts in this repository:
+1. **Fork the repository**
 
-1.  **Clone the repository:**
+2.  **Clone the repository:**
 
     ```bash
     git clone https://github.com/your-username/your-repo-name.git
@@ -52,7 +53,7 @@ To explore the code and concepts in this repository:
 
     (Remember to replace `your-username/your-repo-name.git` with your actual repository path.)
 
-2.  **Install dependencies:**
+3.  **Install dependencies:**
     The Python implementations may require specific libraries. It's recommended to set up a virtual environment:
 
     ```bash
@@ -67,7 +68,7 @@ To explore the code and concepts in this repository:
     pip install pandas scikit-learn
     ```
 
-3.  **Explore the content:**
+4.  **Explore the content:**
 
       * Navigate to the `/concepts` directory to read the theoretical explanations.
       * Head to the `/implementations` directory to run and understand the code examples.
@@ -82,4 +83,4 @@ This repository is primarily for my academic work, but feedback and suggestions 
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details. (You might want to create a `LICENSE` file in your repository).
+This project is licensed under the MIT License - see the `LICENSE` file for details.
