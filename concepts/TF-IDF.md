@@ -170,3 +170,5 @@ TF-IDF helps:
 ---
 
 📂 This markdown complements the Python code and helps readers grasp the intuition behind TF-IDF. Happy learning!
+
+You can find the implementation details [here](../implementations/TF-IDF/tf-idf.py)

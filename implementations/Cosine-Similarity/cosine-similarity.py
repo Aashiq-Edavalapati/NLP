@@ -8,8 +8,8 @@ from nltk.tokenize import word_tokenize
 # X = input("Enter the first string: ").lower()
 # Y = input("Enter the second string: ").lower()
 
-X = "I love horror movies"
-Y = "Lights out is a horror movie"
+X = "i love horror movies"
+Y = "lights out is a horror movie"
 
 # tokenization
 X_list = word_tokenize(X)

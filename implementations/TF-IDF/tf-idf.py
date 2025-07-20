@@ -6,7 +6,7 @@ Author: Aashiq
 import math
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
-# from nltk.corpus import stopwords  # Uncomment if you want to filter stopwords
+# from nltk.corpus import stopwords  # Uncomment if you want to filter stopwords (Usage: stopwords.words('english'))
 
 # Sample documents for analysis
 documentA = 'the man went out for a walk'

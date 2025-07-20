@@ -58,8 +58,8 @@ To explore the code and concepts in this repository:
 
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    pip install -r requirements.txt # (You'll need to create this file based on your code's imports)
+    ./venv/Scripts/activate # On MacOS, use `source venv/bin/activate`
+    pip install -r requirements.txt
     ```
 
     For the current TF-IDF example, you would need `pandas` and `scikit-learn`:
