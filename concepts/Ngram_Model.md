@@ -114,3 +114,5 @@ N-gram models, despite their simplicity, are widely used as baselines and in var
 ---
 
 📂 This markdown explains the concept of N-gram Language Models, their working principles, the zero-frequency problem and Laplace smoothing, and their common applications in NLP.
+
+**You can find the implementation [here](../implementations/N%20gram/ngram.py)**
