@@ -75,11 +75,16 @@ def editDistDP(X, Y):
                 dp[i - 1][j - 1] + cost  # Substitution
             )
 
+    print('-  0  E  X  E  C  U  T  I  O  N')
+    X = '0' + X
+    for i in range(m + 1):
+        print(X[i], dp[i])
+
     return dp[m][n]
 
 if __name__ == '__main__':
-    X = 'kitten'
-    Y = 'sitting'
+    X = 'INTENTION'
+    Y = 'EXECUTION'
 
     print(f'Levenshtein Distance between "{X}" and "{Y}" is {editDistDP(X, Y)}')
-    print(f'Levenshtein Distance between "{X}" and "{Y}" is {editDist(X, len(X), Y, len(Y))}')
+    # print(f'Levenshtein Distance between "{X}" and "{Y}" is {editDist(X, len(X), Y, len(Y))}')
