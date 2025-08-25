@@ -8,8 +8,8 @@ from nltk.tokenize import word_tokenize
 # X = input("Enter the first string: ").lower()
 # Y = input("Enter the second string: ").lower()
 
-X = "I love horror movies"
-Y = "Lights out is a horror movie"
+X = "i love horror movies"
+Y = "lights out is a horror movie"
 
 # tokenization
 X_list = word_tokenize(X)
@@ -34,9 +34,11 @@ for w in rvector:
 
 c = 0
 
-# Cosine formula
+''' Cosine formula '''
+
+# Dot Product
 for i in range(len(rvector)):
     c += l1[i] * l2[i]
 
-cosine = c / float((sum(l1) * sum(l2)) ** 0.5)
+cosine = c / float((sum([num ** 2 for num in l1]) * sum([num ** 2 for num in l2])) ** 0.5)
 print("Similarity: ", cosine)
